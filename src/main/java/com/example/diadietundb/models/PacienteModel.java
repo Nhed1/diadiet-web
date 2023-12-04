@@ -23,6 +23,16 @@ public class PacienteModel implements Serializable {
         this.idPaciente = idPaciente;
     }
 
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    private String email;
+
     private String nascimentoo;
     private String cpf;
 
